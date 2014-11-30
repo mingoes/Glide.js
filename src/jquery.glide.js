@@ -691,11 +691,12 @@
 		 * else change current slide normally
 		 */
 		if ( currentSlide === 0 && distance === -1 ) {
-			fromFirst = true;
-			currentSlide = slidesLength;
+			//Do nothing
+			//fromFirst = true;
+			//currentSlide = slidesLength;
 		} else if ( currentSlide === slidesLength && distance === 1 ) {
-			fromLast = true;
-			currentSlide = 0;
+			//fromLast = true;
+			//currentSlide = 0;
 		} else {
 			currentSlide = currentSlide + (-distance);
 		}
